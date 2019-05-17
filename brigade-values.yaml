@@ -51,40 +51,43 @@ kashti:
 #
 # Further configurability of Brigade Github App-specific values would also go here, e.g.
 brigade-github-app:
+  enabled: true
+  registry: brigadecore
+  name: brigade-github-app
   github:
-    appID: 30131
+    appID: 30663
     key: |
       -----BEGIN RSA PRIVATE KEY-----
-      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
+      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
       -----END RSA PRIVATE KEY-----
 #
 # For full configuration, see the brigade-github-app chart in this repository
-brigade-github-app:
-  enabled: true
+#brigade-github-app:
+#  enabled: true
 
 # gw is the deprecated Oauth-based GitHub Gateway that shipped with Brigade <= v0.20
 #
